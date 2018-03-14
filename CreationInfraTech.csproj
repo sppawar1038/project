@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CD8C70B-6F40-4F72-9DD6-48DFF550835D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreationInfraTech</RootNamespace>
+    <AssemblyName>CreationInfraTech</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="css\ace-rtl.min.css" />
+    <Content Include="css\ace.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\images\border.png" />
+    <Content Include="css\images\controls.png" />
+    <Content Include="css\images\loading.gif" />
+    <Content Include="css\images\loading_background.png" />
+    <Content Include="css\images\meteorshower2.jpg" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\images\pattern.jpg" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\font-awesome.min.css" />
+    <Content Include="fonts\fonts.googleapis.com.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\2.png" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\3.png" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\4.png" />
+    <Content Include="images\402936710-gorgeous-bridge-wallpapers.jpg" />
+    <Content Include="images\aaditi.jpeg" />
+    <Content Include="images\administrator.png" />
+    <Content Include="images\agreement.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\banner.gif" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\boss-2.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\final11.png" />
+    <Content Include="images\img-sp.png" />
+    <Content Include="images\lecture.png" />
+    <Content Include="images\left.png" />
+    <Content Include="images\Logo_1481048263973.png" />
+    <Content Include="images\man.png" />
+    <Content Include="images\mid-bg.jpg" />
+    <Content Include="images\n3.jpg" />
+    <Content Include="images\PicsArt_01-24-08.28.59.jpg" />
+    <Content Include="images\right.png" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\smartphone.png" />
+    <Content Include="images\tanajee.jpg" />
+    <Content Include="images\woman.png" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\banner.jpg" />
+    <Content Include="img\client\aambey.jpg" />
+    <Content Include="img\client\ASK chemicals.jpg" />
+    <Content Include="img\client\atul enter.jpg" />
+    <Content Include="img\client\BG shirke.jpg" />
+    <Content Include="img\client\Bunty group.jpg" />
+    <Content Include="img\client\cad.jpg" />
+    <Content Include="img\client\clients.png" />
+    <Content Include="img\client\DGDPL.jpg" />
+    <Content Include="img\client\DLF.jpg" />
+    <Content Include="img\client\Elite.jpg" />
+    <Content Include="img\client\Ghodawat.jpg" />
+    <Content Include="img\client\Ghodawat1.jpg" />
+    <Content Include="img\client\IVRCL.jpg" />
+    <Content Include="img\client\KPDL.jpg" />
+    <Content Include="img\client\MIDC.jpg" />
+    <Content Include="img\client\MJP 2.jpg" />
+    <Content Include="img\client\MJP1.jpg" />
+    <Content Include="img\client\teerth.jpg" />
+    <Content Include="img\client\vasudha lnadmarks.jpg" />
+    <Content Include="img\client\Vikram group of companies.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\team\desai.jpg" />
+    <Content Include="img\team\shankar.png" />
+    <Content Include="img\team\vdpatil.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery.2.1.1.min.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.mobile.custom.min.js" />
+    <Content Include="js\jquery.wmuSlider.js" />
+    <Content Include="js\jzBox.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="Our Services 2.aspx" />
+    <Content Include="Our Services.aspx" />
+    <Content Include="our_services1.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Our Services 2.aspx.cs">
+      <DependentUpon>Our Services 2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our Services 2.aspx.designer.cs">
+      <DependentUpon>Our Services 2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Our Services.aspx.cs">
+      <DependentUpon>Our Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Our Services.aspx.designer.cs">
+      <DependentUpon>Our Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurServices.aspx.cs">
+      <DependentUpon>OurServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurServices.aspx.designer.cs">
+      <DependentUpon>OurServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="our_services1.aspx.cs">
+      <DependentUpon>our_services1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our_services1.aspx.designer.cs">
+      <DependentUpon>our_services1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="MainMaster.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>18516</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
