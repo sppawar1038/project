@@ -10,7 +10,7 @@
 					<ul class="slides">
 						<li>
 							<div class="w3l_banner_info">
-								<h3>Our aim is  to offer the best services to our clients and to provide highest quality.</h3>
+								<h3>Shivam Pawar</h3>
 							</div>
 						</li>
 						<li>
